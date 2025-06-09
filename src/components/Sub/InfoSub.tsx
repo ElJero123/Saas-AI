@@ -43,7 +43,6 @@ export default function InfoSub ({ userId }: { userId: string }) {
         getSub()
     }, [userId])
     
-    console.log(isLoading)
 
     if (!sub && !isLoading) return <h1 className="text-center text-2xl text-white">You don´t have a subscription</h1>
     else if (isLoading) return <h1 className="text-center text-2xl text-white mt-5">Loading...</h1>
