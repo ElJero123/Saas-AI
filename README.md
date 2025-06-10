@@ -34,6 +34,6 @@
 
 <br />
 
-<p>Used dependencys can be saw in package.json</p>
+<p>used dependencies can be saw at package.json</p>
 
 <i>A NextJS project, 2025 Saas AI.</i>
