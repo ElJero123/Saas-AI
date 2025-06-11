@@ -8,6 +8,7 @@ import { Toaster } from "sonner";
 export const metadata: Metadata = {
   title: "Saas AI",
   description: "Saas AI is a platform that provides AI tools and services for SaaS applications",
+  icons: "/favicon.ico",
 }
 
 export default function RootLayout({
@@ -17,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head />
       <body
         className={`${monserrat.className} antialiased w-full flex flex-col min-h-screen m-0 p-0 bg-black/98 text-white`}
       >
